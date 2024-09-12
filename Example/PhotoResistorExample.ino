@@ -9,13 +9,13 @@ void setup() {
 
 void loop() {
   Serial.print("Voltage: ");
-  Serial.println(sensor.show(1));  // Show voltage
+  Serial.println(sensor.show(voltage));  // Show voltage
   
   Serial.print("Resistance: ");
-  Serial.println(sensor.show(2));  // Show resistance
+  Serial.println(sensor.show(resistance));  // Show resistance
   
   Serial.print("Lux: ");
-  Serial.println(sensor.show(3));  // Show lux
+  Serial.println(sensor.show(lux));  // Show lux
   
   delay(1000);
 }
