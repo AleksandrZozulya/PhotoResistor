@@ -1,0 +1,7 @@
+PhotoResistorSensor	KEYWORD1
+PhotoResistor	KEYWORD1
+attach -- Attach sensor to analog pin A0
+lux -- Show lux
+voltage	-- Show voltage
+resistance -- Show resistance
+show ??	
