@@ -1,7 +1,6 @@
-PhotoResistorSensor	KEYWORD1
-PhotoResistor	KEYWORD1
-attach -- Attach sensor to analog pin A0
+PhotoResistor -- Class object
+attach -- Attach sensor to analog pin
 lux -- Show lux
 voltage	-- Show voltage
 resistance -- Show resistance
-show ??	
+
